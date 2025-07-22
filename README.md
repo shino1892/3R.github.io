@@ -1,6 +1,6 @@
 # mega-todo-app
 
-# Menber
+# Member
 - Ryo Shinohara
 - Rikuto Maetani
 - Ryo Takehara
