@@ -1,41 +1,56 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>ToDoリスト</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>ToDoリスト</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>あなたのToDoリスト</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/img/logo.svg" alt="OICロゴ" class="logo" />
+      <h1>ToDoリスト</h1>
+    </header>
 
-  <main>
-    <section id="tasks work">
-      <h2>未完了タスク</h2>
-      <ul>
-        <li>レポートを提出する</li>
-        <li>メールを確認する</li>
-      </ul>
-    </section>
-
-    <section id="tasks private">
-      <h2>未完了タスク</h2>
-      <ul>
-        <li>部屋を片付ける</li>
-      </ul>
-    </section>
-
-    <section id="completion">
-      <h2>完了済み</h2>
-      <ul>
+    <main>
+      <section id="tasks">
+        <h2>未完了タスク</h2>
+        <h3>仕事</h3>
+        <table>
+          <tr>
+            <th>タスク</th>
+            <th>期限</th>
+          </tr>
+          <tr>
+            <th class="task">レポートを提出する</th>
+            <th class="due-date">2025年5月1日</th>
+          </tr>
+          <tr>
+            <th class="task">メールを確認する</th>
+            <th class="due-date">2025年5月1日</th>
+          </tr>
+        </table>
+        <h3>プライベート</h3>
+        <table>
+          <tr>
+            <th>タスク</th>
+            <th>期限</th>
+          </tr>
+          <tr>
+            <th class="task">部屋を片付ける</th>
+            <th class="due-date">2025年5月1日</th>
+          </tr>
+        </table>
+      </section>
+      <section id="completion">
+        <h2>完了済み</h2>
+        <ul>
         <li>ゴミ出し</li>
       </ul>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer>
-    <p>© 2025 ToDo Inc.</p>
-  </footer>
-</body>
+    <footer>
+      <p>© 2025 ToDo Inc.</p>
+    </footer>
+  </body>
 </html>
