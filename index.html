@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <title>ToDoリスト</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>ToDoリスト</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>あなたのToDoリスト</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/img/logo.svg" alt="OICロゴ" class="logo" />
+      <h1>ToDoリスト</h1>
+    </header>
 
-  <main>
-    <section id="tasks">
-      <h2>やること一覧</h2>
-      <ul>
-        <li>レポートを提出する</li>
-        <li>部屋を片付ける</li>
-        <li>メールを確認する</li>
-      </ul>
-    </section>
-  </main>
+    <main>
+      <section id="tasks">
+        <h2>やること一覧</h2>
+        <table>
+          <tr>
+            <th>タスク</th>
+            <th>期限</th>
+          </tr>
+          <tr>
+            <th class="task">レポートを提出する</th>
+            <th class="due-date">2025年5月1日</th>
+          </tr>
+          <tr>
+            <th class="task">部屋を片付ける</th>
+            <th class="due-date">2025年5月1日</th>
+          </tr>
+          <tr>
+            <th class="task">メールを確認する</th>
+            <th class="due-date">2025年5月1日</th>
+          </tr>
+        </table>
+      </section>
+    </main>
 
-  <footer>
-    <p>© 2025 ToDo Inc.</p>
-  </footer>
-</body>
+    <footer>
+      <p>© 2025 ToDo Inc.</p>
+    </footer>
+  </body>
 </html>
